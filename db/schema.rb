@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20161207215951) do
     t.datetime "updated_at"
     t.integer  "user_id"
   end
-
+#add some comments to code
   create_table "users", force: :cascade do |t|
     t.string   "username"
     t.string   "email"
